@@ -46,7 +46,7 @@ plot(genome_size, pch=8)
 We can add a title to the plot by assigning a string to `main`:
 
 ```{r, fig.align='center'}
-plot(genome_size, pch=8, main="Scatter plot of genome sizes")
+plot(genome_size, pch=8, main="Scatterplot of genome sizes")
 ```
 
 ## Histogram
@@ -69,7 +69,7 @@ Similar to the scatterplots above, we can pass in arguments to add in extras lik
 
 ```{r, fig.align='center'}
 boxplot(genome_size ~ cit, metadata,  col=c("pink","purple", "darkgrey"),
-        main="Average expression differences between celltypes", ylab="Expression")
+        main="Genome size per citrate mutant type", ylab="genome size")
 ```
 
 
